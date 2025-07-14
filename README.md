@@ -22,6 +22,12 @@ After installing the libraries needed to run the project.
 
 Setup the project:
 ```
+sudo apt-get install \
+    ros-$ROS_DISTRO-object-recognition-msgs \
+    ros-$ROS_DISTRO-moveit-visual-tools \
+    ros-$ROS_DISTRO-gripper-action-controller \
+    python3-rosinstall
+
 mkdir -p chessrobo_ws/src
 cd chessrobo_ws
 catkin init -w .
@@ -29,11 +35,6 @@ cd src
 git clone https://github.com/alneremin/chessrobo.git
 rosinstall . chessrobo/dependencies.rosinstall
 cd ..
-
-sudo apt-get install \
-    ros-$ROS_DISTRO-object-recognition-msgs \
-    ros-$ROS_DISTRO-moveit-visual-tools \
-    ros-$ROS_DISTRO-gripper-action-controller
 
 catkin build
 source devel/setup.bash
