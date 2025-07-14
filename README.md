@@ -55,10 +55,10 @@ roslaunch chessrobot_simulation chessboard_world_with_robot.launch
 
 ### Usage
 
-
 Launch the world with UR5e along with RViz for motion control.
 ```
-roslaunch my_ur5_description my_ur5_moveit_bringup.launch
+roslaunch my_ur5_description myur5_moveit_bringup_gripper.launch
+
 ```
 ![ezgif com-video-to-gif-converter](https://github.com/arunkru1998/chessrobo/assets/114765006/4d048b2e-d9fd-42a0-99ac-d42fe5c5c1d7)
 

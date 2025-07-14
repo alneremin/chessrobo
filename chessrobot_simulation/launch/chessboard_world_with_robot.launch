@@ -20,14 +20,14 @@
   </include>
 
   <!-- Send robot urdf to param server -->
-  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find ur5_description)/urdf/ur5_robotiq85_gripper.urdf.xacro'" />
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_ur5_description)/urdf/myur5_gripper.urdf.xacro'" />
   <!-- Spawn robot in gazebo (and move it upwards):
        better initial values should be -2.355 and 1.57 but the robot does
        something strange when unpausing it
   -->
 
 <!-- Enable PID -->
-  <rosparam file="$(find ur5_description)/config/gazebo_ros_control_params.yaml" />
+  <rosparam file="$(find my_ur5_description)/config/myur5e_controllers.yaml" />
   
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model"
         args="-urdf -param robot_description -model robot -x 0.28 -y -3.85 -z 1.03 -P 0.0 -R 0 -Y -1.57
@@ -43,8 +43,6 @@
   <!--<node name="spawn_work_surface" pkg="gazebo_ros" type="spawn_model"
         args="-sdf -file $(arg sdf_robot_file) -model work_table -x 0 -y -0.558 -z 0 -Y -3.1415926535"
   output="screen" />-->
-
-  <include file="$(find ur5_gazebo)/launch/ur5_controllers.launch" />
 
 </launch>
 

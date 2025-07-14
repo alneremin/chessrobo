@@ -162,7 +162,7 @@
         <visual>
             <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/base.dae" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/visual/base.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -171,7 +171,7 @@
         <collision>
             <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/collision/base.stl" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/collision/base.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -184,7 +184,7 @@
         <visual>
             <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/shoulder.dae" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/visual/shoulder.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -193,7 +193,7 @@
         <collision>
             <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/collision/shoulder.stl" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/collision/shoulder.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -206,7 +206,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.138" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/upperarm.dae" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/visual/upperarm.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -215,7 +215,7 @@
         <collision>
             <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.138" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/collision/upperarm.stl" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/collision/upperarm.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -228,7 +228,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.007" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/forearm.dae" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/visual/forearm.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -237,7 +237,7 @@
         <collision>
             <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.007" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/collision/forearm.stl" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/collision/forearm.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -251,7 +251,7 @@
             <!-- TODO: Move this to a parameter -->
             <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.127" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist1.dae" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/visual/wrist1.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -260,7 +260,7 @@
         <collision>
             <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.127" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/collision/wrist1.stl" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/collision/wrist1.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -273,7 +273,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 -0.0997" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist2.dae" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/visual/wrist2.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -282,7 +282,7 @@
         <collision>
             <origin rpy="0 0 0" xyz="0 0 -0.0997" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/collision/wrist2.stl" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/collision/wrist2.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -295,7 +295,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.0989" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist3.dae" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/visual/wrist3.dae" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -304,7 +304,7 @@
         <collision>
             <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.0989" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/collision/wrist3.stl" />
+                <mesh filename="$(find ur_description)/meshes/ur5e/collision/wrist3.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -487,13 +487,13 @@
     <link name="robotiq_coupler">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/robotiq_85_coupler.stl" />
+                <mesh filename="file://$(find robotiq_description)/meshes/robotiq_85_coupler.stl" />
             </geometry>
             <material name="flat_black" />
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/robotiq_85_coupler.stl" />
+                <mesh filename="file://$(find robotiq_description)/meshes/robotiq_85_coupler.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -527,12 +527,12 @@
     <link name="robotiq_85_base_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_base_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_base_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_base_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_base_link.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -559,12 +559,12 @@
     <link name="robotiq_85_left_knuckle_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_knuckle_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_knuckle_link.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -576,12 +576,12 @@
     <link name="robotiq_85_right_knuckle_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_knuckle_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_knuckle_link.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -603,12 +603,12 @@
     <link name="robotiq_85_left_finger_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_finger_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_finger_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_finger_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_finger_link.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -620,12 +620,12 @@
     <link name="robotiq_85_right_finger_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_finger_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_finger_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_finger_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_finger_link.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -653,12 +653,12 @@
     <link name="robotiq_85_left_inner_knuckle_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_inner_knuckle_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_inner_knuckle_link.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -670,12 +670,12 @@
     <link name="robotiq_85_right_inner_knuckle_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_inner_knuckle_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_inner_knuckle_link.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -703,12 +703,12 @@
     <link name="robotiq_85_left_finger_tip_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_finger_tip_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_finger_tip_link.stl" />
             </geometry>
         </collision>
         <inertial>
@@ -720,12 +720,12 @@
     <link name="robotiq_85_right_finger_tip_link">
         <visual>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae" />
+                <mesh filename="$(find robotiq_description)/meshes/visual/robotiq_85_finger_tip_link.dae" />
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl" />
+                <mesh filename="$(find robotiq_description)/meshes/collision/robotiq_85_finger_tip_link.stl" />
             </geometry>
         </collision>
         <inertial>
