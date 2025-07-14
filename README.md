@@ -28,6 +28,10 @@ catkin init -w .
 cd src
 git clone https://github.com/alneremin/chessrobo.git
 rosinstall . chessrobo/dependencies.rosinstall
+
+pip3 install chess
+chmod +x chessrobo/chess_ai/src/stockfish/stockfish-11-linux/Linux/stockfish_20011801_x64
+
 cd ..
 
 sudo apt-get install \
@@ -82,7 +86,7 @@ rosrun chess_ai chess_ai_node.py
 ```
 Launch the world with UR5e along with RViz for motion control.
 ```
-roslaunch my_ur5_description my_ur5_moveit_bringup.launch
+roslaunch my_ur5_description myur5_moveit_bringup_gripper.launch
 ```
 Run the pose_reciever node on a new terminal
 ```
