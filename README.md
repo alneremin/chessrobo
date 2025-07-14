@@ -12,8 +12,8 @@ Using UR5e to play chess
 ### Requirements
 
 For running each sample code:
-- `Ros Noetic:` http://wiki.ros.org/noetic/Installation
-- `Gazebo:` https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros
+- `ROS Noetic:` http://wiki.ros.org/noetic/Installation
+- `Gazebo Classic:` https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros
 - `Catkin` https://catkin-tools.readthedocs.io/en/latest/
 
 ### Setup
@@ -22,16 +22,20 @@ After installing the libraries needed to run the project.
 
 Setup the project:
 ```
-mkdir catkin_ws
-cd catkin_ws
-mkdir src
-cd ..
-catkin_make
+mkdir -p chessrobo_ws/src
+cd chessrobo_ws
+catkin init -w .
 cd src
-git clone https://github.com/arunkru1998/chessrobo
-git clone -b noetic https://github.com/ros-industrial/universal_robot.git
+git clone https://github.com/alneremin/chessrobo.git
+rosinstall . chessrobo/dependencies.rosinstall
 cd ..
-catkin_make
+
+sudo apt-get install \
+    ros-$ROS_DISTRO-object-recognition-msgs \
+    ros-$ROS_DISTRO-moveit-visual-tools \
+    ros-$ROS_DISTRO-gripper-action-controller
+
+catkin build
 source devel/setup.bash
 ```
 
@@ -45,9 +49,9 @@ roslaunch chessrobot_simulation chessboard_world.launch
 ```
 Launch the world with Chessboard and Robot
 ```
-roslaunch my_ur5_description my_ur5_bringup.launch 
+roslaunch chessrobot_simulation chessboard_world_with_robot.launch 
 ```
-## Setup Movit for UR5e on Gazebo
+## Setup MoveIt! for UR5e on Gazebo
 
 ### Usage
 

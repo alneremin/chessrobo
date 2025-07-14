@@ -3224,7 +3224,7 @@
             </friction>
           </surface>
         </collision>
-        <visual name='front_left_leg'>
+        <visual name='front_left_leg2'>
           <pose>0.68 0.38 0.5 0 -0 0</pose>
           <geometry>
             <cylinder>
@@ -3261,7 +3261,7 @@
             </friction>
           </surface>
         </collision>
-        <visual name='front_right_leg'>
+        <visual name='front_right_leg2'>
           <pose>0.68 -0.38 0.5 0 -0 0</pose>
           <geometry>
             <cylinder>
@@ -3298,7 +3298,7 @@
             </friction>
           </surface>
         </collision>
-        <visual name='back_right_leg'>
+        <visual name='back_right_leg2'>
           <pose>-0.68 -0.38 0.5 0 -0 0</pose>
           <geometry>
             <cylinder>
@@ -3335,7 +3335,7 @@
             </friction>
           </surface>
         </collision>
-        <visual name='back_left_leg'>
+        <visual name='back_left_leg2'>
           <pose>-0.68 0.38 0.5 0 -0 0</pose>
           <geometry>
             <cylinder>
@@ -3422,7 +3422,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/collision/base.stl</uri>
+              <uri>package://ur_description/meshes/ur5e/collision/base.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3453,7 +3453,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/visual/base.dae</uri>
+              <uri>package://ur_description/meshes/ur5e/visual/base.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3500,7 +3500,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/collision/shoulder.stl</uri>
+              <uri>package://ur_description/meshes/ur5e/collision/shoulder.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3522,7 +3522,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/visual/shoulder.dae</uri>
+              <uri>package://ur_description/meshes/ur5e/visual/shoulder.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3569,7 +3569,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/collision/upperarm.stl</uri>
+              <uri>package://ur_description/meshes/ur5e/collision/upperarm.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3591,7 +3591,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/visual/upperarm.dae</uri>
+              <uri>package://ur_description/meshes/ur5e/visual/upperarm.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3638,7 +3638,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/collision/forearm.stl</uri>
+              <uri>package://ur_description/meshes/ur5e/collision/forearm.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3660,7 +3660,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/visual/forearm.dae</uri>
+              <uri>package://ur_description/meshes/ur5e/visual/forearm.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3707,7 +3707,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/collision/wrist1.stl</uri>
+              <uri>package://ur_description/meshes/ur5e/collision/wrist1.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3729,7 +3729,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/visual/wrist1.dae</uri>
+              <uri>package://ur_description/meshes/ur5e/visual/wrist1.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3776,7 +3776,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/collision/wrist2.stl</uri>
+              <uri>package://ur_description/meshes/ur5e/collision/wrist2.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3798,7 +3798,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/visual/wrist2.dae</uri>
+              <uri>package://ur_description/meshes/ur5e/visual/wrist2.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3855,7 +3855,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/collision/wrist3.stl</uri>
+              <uri>package://ur_description/meshes/ur5e/collision/wrist3.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3877,7 +3877,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/robotiq_85_coupler.stl</uri>
+              <uri>package://robotiq_description/meshes/robotiq_85_coupler.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -3902,7 +3902,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_base_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_base_link.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3924,7 +3924,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/universal_robot/ur_description/meshes/ur5e/visual/wrist3.dae</uri>
+              <uri>package://ur_description/meshes/ur5e/visual/wrist3.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3933,7 +3933,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/robotiq_85_coupler.stl</uri>
+              <uri>package://robotiq_description/meshes/robotiq_85_coupler.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -3948,7 +3948,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_base_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_base_link.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -3993,7 +3993,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4015,7 +4015,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4060,7 +4060,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -4089,7 +4089,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4134,7 +4134,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4156,7 +4156,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_finger_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_finger_link.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4178,7 +4178,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4187,7 +4187,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_finger_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_finger_link.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4232,7 +4232,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4254,7 +4254,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4299,7 +4299,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -4328,7 +4328,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_finger_tip_link.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4373,7 +4373,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_knuckle_link.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4395,7 +4395,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/collision/robotiq_85_finger_link.stl</uri>
+              <uri>package://robotiq_description/meshes/collision/robotiq_85_finger_link.stl</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4417,7 +4417,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_knuckle_link.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4426,7 +4426,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/colin/chessrobot_simulation/catkin_ws/src/robotiq/robotiq_description/meshes/visual/robotiq_85_finger_link.dae</uri>
+              <uri>package://robotiq_description/meshes/visual/robotiq_85_finger_link.dae</uri>
             </mesh>
           </geometry>
         </visual>

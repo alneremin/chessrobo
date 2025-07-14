@@ -1,0 +1,16 @@
+- git:
+    local-name: gazebo-pkgs
+    uri: https://github.com/JenniferBuehler/gazebo-pkgs.git
+    version: master
+
+- git:
+    local-name: universal_robot
+    uri: https://github.com/ros-industrial/universal_robot.git
+    version: noetic
+
+- git:
+    local-name: general-message-pkgs
+    uri: https://github.com/JenniferBuehler/general-message-pkgs.git
+    version: master
+
+
